@@ -1,3 +1,7 @@
+#' The followin functions are largely copied and modified from seqLogo packages
+#' (https://www.bioconductor.org/packages/release/bioc/html/seqLogo.html).
+
+
 #' Generate a data frame for a polygon of "A" character
 #'
 #' @param x.pos The x-coordinate of the bottom left of the polygon.
