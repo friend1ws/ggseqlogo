@@ -1,0 +1,17 @@
+Package: ggseqlogo
+Type: Package
+Title: A lightweight package for generating sequence logos based on ggplot
+Version: 0.1.0
+Authors@R: person("Yuichi", "Shiraishi", email = "friend1ws@gmail.com", 
+  role = c("aut", "cre"))
+Description: This package generate sequence logos from DNA frequency matrices.
+    Since, this program is based on ggplot2 (geom_polygon function),
+    users can easily modify the figures
+    (e.g., adding captions, changing colours and so on)
+    using functions provided by ggplot2 based.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    ggplot2
+RoxygenNote: 5.0.1
