@@ -2,8 +2,10 @@
 The R package **ggseqlogo** is developed for efficiently generating sequence logo figures based on [ggplot2](http://ggplot2.org),
 so that the functions provided by ggplot2 and third-party packages for ggplot2 can be effectively used.
 
-## Usage
+- Functions for generating A, C, G, T character polygons are largely extracted from [**seqLogo**](https://www.bioconductor.org/packages/release/bioc/html/seqLogo.html) package.
 
+
+## Usage
 ### Install the package
 First, install **devtools** for installation of **ggseqlogo**.
 ALso, install **ggplot2** in case you haven't installed that yet.
