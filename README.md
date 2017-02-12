@@ -26,8 +26,12 @@ library(ggseqlogo)
 You only need to prepare a DNA frequency matrix (4 * sequence size).
 The four rows are frequencies of A, C, G, and T nucleotides, respectively.
 Then, you are all set!
-
+You can play with ggplot functions and themes.
+Also, you can change the colors of A, C, G and T.
 ```
 M <- matrix(rgamma(20, 1, 10), 4, 5)
-ggseqlogo(M, is.scale = TRUE)
+ggseqlogo(M)
+ggseqlogo(M, is.scale = TRUE) + theme_bw()
+ggseqlogo(M, is.scale = TRUE) + theme_classic() + labs(x = "Sequence Num", y = "Prob.")
+ggseqlogo(M, is.scale = TRUE, A_col = "green", C_col = "blue", G_col = "orange", T_col = "red") + theme_minimal()
 ```
