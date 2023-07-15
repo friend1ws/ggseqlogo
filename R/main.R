@@ -48,7 +48,7 @@ ggseqlogo <- function(M, is.scale = FALSE, A_col = "#00BA38", C_col = "#619CFF",
   ggplot(letter_data, aes(x = x, y = y, group = id, fill = fill)) +
     geom_polygon() +
     scale_fill_manual(values = c("A" = A_col, "C" = C_col, "G" = G_col, "T" = T_col, "white" = "#FFFFFF")) +
-    guides(fill = none) +
+    guides(fill = "none") +
     labs(x = "Position", y = "Probability")
 
 }
